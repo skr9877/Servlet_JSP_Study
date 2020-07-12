@@ -5,7 +5,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-@WebServlet("/context_test")
+@WebServlet("/context_test1")
 public class SeverletContextTest extends HttpServlet{
 	ServletContext sc;
 	
