@@ -33,6 +33,16 @@
 		<url-pattern>/second</url-pattern>
 	</filter-mapping>
 
+	<listener>
+		<listener-class>com.edu.test.listener.TestRequestListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.edu.test.listener.TestSessionListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.edu.test.listener.TestSessionAttributeListener</listener-class>
+	</listener>
+	
 	<servlet>
 		<servlet-name>first</servlet-name>
 		<servlet-class>com.edu.test.FirstServlet</servlet-class>
